@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="fit_and_fuel"
+        android:label="Fit&amp;Fuel"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

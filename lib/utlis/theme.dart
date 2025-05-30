@@ -5,15 +5,11 @@ class AppTheme {
     brightness: Brightness.light,
     scaffoldBackgroundColor: const Color(0xFFD9D9D9),
     fontFamily: 'Worksans',
-    textTheme:
-        const TextTheme(displayMedium: TextStyle(color: Color(0xFF181A20))),
   );
 
   static final ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
     scaffoldBackgroundColor: const Color(0xFF181A20),
     fontFamily: 'Worksans',
-    textTheme:
-        const TextTheme(displayMedium: TextStyle(color: Color(0xFFD9D9D9))),
   );
 }

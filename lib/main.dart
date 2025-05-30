@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       // initialBinding: InitialBindings(),
       initialRoute: MyRoutes.initialRoute,
       getPages: MyRoutes.pages,
-      theme: AppTheme.lightTheme,
+      theme: AppTheme.darkTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: themeController.theme,
       debugShowCheckedModeBanner: false,

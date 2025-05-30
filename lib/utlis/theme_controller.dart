@@ -2,11 +2,11 @@ import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 
 class ThemeController extends GetxController {
-  var isDarkMode = true.obs;
+  var isLightMode = true.obs;
 
-  ThemeMode get theme => isDarkMode.value ? ThemeMode.dark : ThemeMode.light;
+  ThemeMode get theme => isLightMode.value ? ThemeMode.light : ThemeMode.dark;
 
   void toggleTheme() {
-    isDarkMode.value = !isDarkMode.value;
+    isLightMode.value = !isLightMode.value;
   }
 }
